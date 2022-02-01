@@ -1,2 +1,4 @@
 # case-dp6
-Implementação de uma coleta de dados para o Google Analytics.
+## Case Técnico
+### Processo Seletivo para Engenheiro de Dados
+* Implementação de uma coleta de dados para o Google Analytics.
