@@ -1,0 +1,26 @@
+{
+  "name": "case-dp6",
+  "version": "1.0.0",
+  "description": "Implementação de uma coleta de dados para o Google Analytics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joymaxnascimento/case-dp6.git"
+  },
+  "keywords": [
+    "dp6",
+    "dados"
+  ],
+  "author": "Joymax Nascimento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joymaxnascimento/case-dp6/issues"
+  },
+  "homepage": "https://github.com/joymaxnascimento/case-dp6#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
