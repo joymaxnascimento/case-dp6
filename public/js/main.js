@@ -15,7 +15,7 @@
     var data = jQuery(this).data();
     var content = jQuery('.info-montadora[data-id="' + data.id + '"]').html();
     lb.find('.lightbox-icon')
-      .attr('src', '../public/images/montadoras/' + data.id + '.png')
+      .attr('src', 'public/images/montadoras/' + data.id + '.png')
       .attr('alt', data.name);
     lb.find('.lightbox-title').text(data.name);
     lbContent.html(content).scrollTop(0);
@@ -62,7 +62,7 @@
     setTimeout(function () {
       console.log('enviado');
       lb.find('.lightbox-icon')
-        .attr('src', '../public/images/logo-dp6-square.png')
+        .attr('src', 'public/images/logo-dp6-square.png')
         .attr('alt', 'Logo DP6');
       lb.find('.lightbox-title').text('Contato enviado');
       lbContent.html('Obrigado pelo seu contato!').scrollTop(0);
