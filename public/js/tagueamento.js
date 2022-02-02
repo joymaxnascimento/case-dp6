@@ -1,7 +1,7 @@
 onload = function () {
 
     //Visualizações da página    
-    gtag('send', 'pageview')
+    ga('send', 'pageview')
 
     const defineEvento = function (eventCategory, eventAction, eventLabel) {
         return {
@@ -20,14 +20,14 @@ onload = function () {
 
         let evento = defineEvento('menu', 'entre_em_contato', 'link_externo')
 
-        gtag('send', evento)
+        ga('send', evento)
     })
 
     menuDownload[0].addEventListener('click', function () {
 
         let evento = defineEvento('menu', 'download_pdf', 'download_pdf')
 
-        gtag('send', evento)
+        ga('send', evento)
     })
 
     //Eventos - Página - Análise
@@ -39,7 +39,7 @@ onload = function () {
 
             let evento = defineEvento('analise', 'ver_mais', analise[i].dataset.name)
 
-            gtag('send', evento)
+            ga('send', evento)
         })
     }
 
@@ -53,7 +53,7 @@ onload = function () {
             let input = formContato.querySelectorAll('input')
             input[i].addEventListener('change', function () {
                 let evento = defineEvento('contato', 'preencheu', input[i].id)
-                gtag('send', evento)
+                ga('send', evento)
 
             })
         }
@@ -62,7 +62,7 @@ onload = function () {
 
             let evento = defineEvento('contato', 'enviado', 'enviado')
 
-            gtag('send', evento)
+            ga('send', evento)
         }
 
     }
